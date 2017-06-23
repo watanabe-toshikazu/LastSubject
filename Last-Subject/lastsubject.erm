@@ -138,7 +138,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2017-06-23 09:54:53</creation_date>
-			<updated_date>2017-06-23 11:03:19</updated_date>
+			<updated_date>2017-06-23 11:17:30</updated_date>
 			<model_property>
 				<name>プロジェクト名</name>
 				<value></value>
@@ -936,7 +936,7 @@
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name>仕事カテゴリー名</logical_name>
-					<physical_name></physical_name>
+					<physical_name>work_category_id</physical_name>
 					<type>integer</type>
 					<constraint></constraint>
 					<default_value></default_value>

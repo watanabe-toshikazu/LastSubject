@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <diagram>
+	<dbsetting>
+		<dbsystem>MySQL</dbsystem>
+		<server>192.168.30.129</server>
+		<port>3306</port>
+		<database>last_subject</database>
+		<user>root</user>
+		<password>mariadb</password>
+		<use_default_driver>true</use_default_driver>
+		<url>jdbc:mysql://192.168.30.129:3306/last_subject</url>
+		<driver_class_name>com.mysql.jdbc.Driver</driver_class_name>
+	</dbsetting>
 	<page_setting>
 		<direction_horizontal>true</direction_horizontal>
 		<scale>100</scale>
@@ -138,7 +149,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2017-06-23 09:54:53</creation_date>
-			<updated_date>2017-06-23 13:21:41</updated_date>
+			<updated_date>2017-06-23 15:48:00</updated_date>
 			<model_property>
 				<name>プロジェクト名</name>
 				<value></value>
@@ -835,7 +846,7 @@
 					<relation>1</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
-					<logical_name>アカウント名</logical_name>
+					<logical_name></logical_name>
 					<physical_name></physical_name>
 					<type>varchar(n)</type>
 					<constraint></constraint>

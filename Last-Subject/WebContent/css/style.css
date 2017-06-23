@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+body {
+    background: #eeeeee;
+  }
+div {
+  background: #ffffff;
+  text-align: center;
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  margin: 30px auto;
+}
+h1 {
+	text-align: left;
+	font-size: 130%;
+}
+h2{
+	text-align: left;
+	font-size: 100%;
+}
+p {
+	text-align: left;
+}
+table {
+	border-collapse: collapse;
+}
+td {
+	border: solid 1px;
+	padding: 0.5em;
+}

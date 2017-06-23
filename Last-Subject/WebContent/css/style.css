@@ -1,15 +1,23 @@
 @CHARSET "UTF-8";
 body {
-    background: #eeeeee;
+    margin: 40px 10px;
+    padding: 0;
+    font-family: "Lucida Grande",Helvetica,Arial,Verdana,sans-serif;
+    font-size: 14px;
   }
-div {
+div #main{
   background: #ffffff;
   text-align: center;
-  width: 300px;
+  width: 0px;
   padding: 10px;
   border: 1px solid #cccccc;
   margin: 30px auto;
 }
+div #calendar {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
 h1 {
 	text-align: left;
 	font-size: 130%;

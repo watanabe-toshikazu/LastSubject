@@ -10,6 +10,13 @@
      <head>
           <meta charset=UTF-8>
           <title>top</title>
+          <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+          <link href='fullcalendar.min.css' rel='stylesheet' />
+			<link href='fullcalendar.print.min.css' rel='stylesheet' media='print' />
+
+			<script src='lib/moment.min.js'></script>
+			<script src='lib/jquery.min.js'></script>
+			<script src='fullcalendar.min.js'></script>
      </head>
      <body>
      	

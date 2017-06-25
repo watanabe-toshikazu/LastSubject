@@ -6,13 +6,13 @@
 	<jsp:include page="html-header.jsp">
 		<jsp:param name="title" value="Top" />
 	</jsp:include>
-	
-     
-     <body>
-     	<jsp:include page="page-header.jsp">
+<head>
+		<jsp:include page="page-header.jsp">
 			<jsp:param  name="page" value="menu"/>
 		</jsp:include>
-		
+		<script type="text/javascript" src="js/full.js"></script>
+</head>
+     <body>
 		 <div id='calendar'></div>
 		 
 		<div　id="main">

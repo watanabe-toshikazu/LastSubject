@@ -24,7 +24,7 @@ public class AccountDao extends BaseDao{
 		return super.findById(Account.class, id);
 	}
 	
-	public Account checkaccount(String email , String password){
+	public Account loginAuthenticate(String email , String password){
 		Account account = null;
 		
 		try {

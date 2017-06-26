@@ -21,11 +21,6 @@ public class Account implements Serializable {
 
 	private String username;
 
-	//bi-directional many-to-one association to Department
-	@ManyToOne
-	@JoinColumn(name="id")
-	private Department department;
-
 	//bi-directional many-to-one association to Schedule
 	@OneToMany(mappedBy="account")
 	private List<Schedule> schedules;
@@ -55,14 +50,6 @@ public class Account implements Serializable {
 
 	public void setUsername(String username) {
 		this.username = username;
-	}
-
-	public Department getDepartment() {
-		return this.department;
-	}
-
-	public void setDepartment(Department department) {
-		this.department = department;
 	}
 
 	public List<Schedule> getSchedules() {

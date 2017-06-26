@@ -17,9 +17,6 @@ public class Schedule implements Serializable {
 	@EmbeddedId
 	private SchedulePK id;
 
-	@Temporal(TemporalType.DATE)
-	private Date creatingday;
-
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date endtime;
 
@@ -28,15 +25,12 @@ public class Schedule implements Serializable {
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date starttime;
 
+	private String title;
+
 	//bi-directional many-to-one association to Account
 	@ManyToOne
 	@JoinColumn(name="email")
 	private Account account;
-
-	//bi-directional many-to-one association to WorkCategory
-	@ManyToOne
-	@JoinColumn(name="work_category_id")
-	private WorkCategory workCategory;
 
 	public Schedule() {
 	}
@@ -47,14 +41,6 @@ public class Schedule implements Serializable {
 
 	public void setId(SchedulePK id) {
 		this.id = id;
-	}
-
-	public Date getCreatingday() {
-		return this.creatingday;
-	}
-
-	public void setCreatingday(Date creatingday) {
-		this.creatingday = creatingday;
 	}
 
 	public Date getEndtime() {
@@ -81,20 +67,20 @@ public class Schedule implements Serializable {
 		this.starttime = starttime;
 	}
 
+	public String getTitle() {
+		return this.title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
 	public Account getAccount() {
 		return this.account;
 	}
 
 	public void setAccount(Account account) {
 		this.account = account;
-	}
-
-	public WorkCategory getWorkCategory() {
-		return this.workCategory;
-	}
-
-	public void setWorkCategory(WorkCategory workCategory) {
-		this.workCategory = workCategory;
 	}
 
 }

@@ -4,7 +4,7 @@
  $(function() {
 		$('#calendar').fullCalendar({
 		　　 header: {
-		      left: "prevYear,nextYear prev,next today",
+		      left: "prev,next today",
 		      center: "title",
 		      right: "month agendaWeek agendaDay list"
 		    },
@@ -64,18 +64,20 @@
 //		        },
 //		        windowResize: function(view) {
 //		        },
-//		        dayClick: function () {
-//		        },
-//		       events: [
-//		    	   {
-//		    	        title: ${title},
-//		    	        start: ${start},
-//		    	        end:   ${end}
-//		    	    }
-//		       ],
-               dayClick: function () {
-                   alert('a day has been clicked!');
-               }
+		       events: [
+		    	   {
+		    		   
+		    	        title: "${title}",
+		    	        start: "${start}",
+		    	        end:   "${end}"
+		    	    }
+		       ],
+		       events: [
+		    	   {
+	                    title: '会議',
+	                    start: '2017-06-20',
+	                },
+		       ]
 		});
 });
  

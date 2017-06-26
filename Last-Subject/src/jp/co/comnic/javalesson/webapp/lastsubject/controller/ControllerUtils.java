@@ -85,13 +85,13 @@ public class ControllerUtils {
 	private static class ScheduleConverter implements Converter {
 
 		@Override
-		public <T> T convert(Class<T> departmentClass, Object value) {
+		public <T> T convert(Class<T> scheduleClass, Object value) {
 			
 			T schedule = null;	
 			
 			try {
 				
-				schedule = departmentClass.cast(
+				schedule = scheduleClass.cast(
 						new ScheduleDao().findById(Integer.parseInt((String)value)));
 				
 			} catch (NumberFormatException | DaoException e) {

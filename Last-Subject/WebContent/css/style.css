@@ -73,3 +73,20 @@ input[type="password"] {
 .submit{
     text-align: right;
     }
+    
+#edit{
+    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #555;
+    }
+    
+.title,.start,.end{
+    margin-bottom: 20px;
+    }
+    
+input[type="text"]{
+    width: 500px;
+    padding: 4px;
+    font-size: 14px;
+    }

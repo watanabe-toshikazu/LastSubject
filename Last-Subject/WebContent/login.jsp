@@ -6,20 +6,25 @@
 		<jsp:param name="title" value="Login" />
 	</jsp:include>
 
-     <head>
+    <head>
           <meta charset=UTF-8>
           <title>Login</title>
+ 	<div class="demo demo9">
+ 		 <div class="heading"><span>NabeSchedule</span></div>
+	</div>
      </head>
-     <body>
-     	<h2>NabeSchedule<h2>
-     	<h3>ログイン</h3>
+    <body>
+     <div id="form">
+     	<p class='form-title'>Login</p>
      	
-     	<form action="login" method="post">
-		<p><input type="email" name="email" placeholder="E-MAIL" required autofocus></p>
-		<p><input type="password" name="password" placeholder="PASSWORD"></p>
-			<input type="submit" name="確認" value="サインイン" required>
-			
-			<h7><a href="/ebook-subject/newmake.jsp">新規作成はこちら</a><h7>
-
-     </body>
+       <form action="login" method="post">
+     	<p>Email</p>
+		 <p class="email"><input type="email" name="email"></p>
+		<p>Password</p>
+		 <p class="password"><input type="password" name="password"></p>
+		 
+		 <p class="submit"><input type="submit" name="確認" value="ログイン" required></p>
+		</form>
+     </div>
+    </body>
 </html>

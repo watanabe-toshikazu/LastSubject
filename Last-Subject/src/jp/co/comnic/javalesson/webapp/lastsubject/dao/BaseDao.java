@@ -37,33 +37,35 @@ public class BaseDao {
 	public void insert(Object entity) throws DaoException {
 
 		try {
+			tx.begin();
 			em.persist(entity);
+			tx.commit();
 			
 		} catch (Exception e) {
 			throw new DaoException(e);
 		}
 	}
 	
+	//既存データを1件削除
 	public <T> void remove(Class<T> entityClass, Serializable id) throws DaoException {
-		// エンティティ・オブジェクトを取得して削除
+		// エンティティ・オブジェクトを取得
 
 	Object entity=em.find(entityClass, id);
-	
+	//取得したエンティティを削除
 	try {
+		tx.begin();
 		em.remove(entity);
+		tx.commit();
 		
 	} catch (Exception e) {
 		throw new DaoException(e);
 	}
 	}
 	
+	//1件のデータのPK以外の情報の更新
 	public void update(Object entity) throws DaoException {
 		try {
 			tx.begin();
-			// JPAでは更新専用のメソッドは用意されておらず、EntityManagerによって管理対象と
-			// なっているエンティティ・オブジェクトはsetterメソッドによって値を変更すれば、自動的に
-			// データベースと同期更新される仕組みになっているが、管理対象となっていないエンティティ
-			// オブジェクトはmergeメソッドを使用して管理対象とする必要がある
 			em.merge(entity);
 			tx.commit();
 		} catch (Exception e) {

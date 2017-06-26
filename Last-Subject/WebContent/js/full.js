@@ -66,7 +66,13 @@
 //		        },
 //		        dayClick: function () {
 //		        },
-		       events: "calendarServlet",
+//		       events: [
+//		    	   {
+//		    	        title: ${title},
+//		    	        start: ${start},
+//		    	        end:   ${end}
+//		    	    }
+//		       ],
                dayClick: function () {
                    alert('a day has been clicked!');
                }

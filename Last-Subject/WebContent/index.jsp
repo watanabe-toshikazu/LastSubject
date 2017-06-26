@@ -15,8 +15,8 @@
      <body>
 		 <div id='calendar'></div>
 		
-	  <div id="edit" >
-         <form action="edit" method="get">
+	  <div id="new" >
+         <form action="new" method="get">
            <p>イベント名</p>
            <p class="title"><input type="text" name="title"></p>
            <p>開始日時</p>

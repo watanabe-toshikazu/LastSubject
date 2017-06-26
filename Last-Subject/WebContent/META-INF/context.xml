@@ -2,7 +2,7 @@
 	<Resource name="ds/last_subject"
 	          type="javax.sql.DataSource"
 	          driverClassName="com.mysql.jdbc.Driver"
-	          url="jdbc:mysql://192.168.30.129/last_subject"
+	          url="jdbc:mysql://192.168.59.129/last_subject"
 	          username="root"
 	          password="mariadb"
 	/>

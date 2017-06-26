@@ -5,5 +5,5 @@
   <div class="heading"><span>NabeSchedule</span></div>
 </div>
 <div class="login-user">Hello！</div> 
-<div class="username"><a href="">${loginUsername}</a> さん</div>
-<p class="login-user"><a href="${ctxPath}/logout.do"> Logout</a></p>
+<div class="username">${loginUsername} さん</div>
+<p class="login-user"><a href="${ctxPath}logout.do"> Logout</a></p>

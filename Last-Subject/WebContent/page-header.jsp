@@ -4,6 +4,6 @@
 <div class="demo demo9">
   <div class="heading"><span>NabeSchedule</span></div>
 </div>
-<p class="login-user">Login user: ${loginUsername} 
-	<a href="${ctxPath}/logout.do"> － Logout</a>
-</p>
+<div class="login-user">Hello！</div> 
+<div class="username"><a href="">${loginUsername}</a> さん</div>
+<p class="login-user"><a href="${ctxPath}/logout.do"> Logout</a></p>

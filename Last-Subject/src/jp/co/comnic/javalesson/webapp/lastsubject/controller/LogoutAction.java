@@ -10,9 +10,6 @@ import jp.co.comnic.javalesson.webapp.lastsubject.controller.Action;
 
 public class LogoutAction implements Action {
 
-	/* (non-Javadoc)
-	 * @see jp.co.comnic.javalesson.webapp.ems.controller.Action#execute(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse)
-	 */
 	@Override
 	public String execute(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {

@@ -90,3 +90,13 @@ input[type="text"]{
     padding: 4px;
     font-size: 14px;
     }
+
+.login-user {
+	margin-left: 5cm;
+	font-size: 18px;
+	color: #800080;
+}
+.username {
+	margin-left: 5cm;
+	font-size: 18px;
+}

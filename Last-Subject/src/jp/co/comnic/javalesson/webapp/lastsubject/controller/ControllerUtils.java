@@ -34,7 +34,7 @@ public class ControllerUtils {
 	public static String getFullyQualifiedClassName(String servletPath) {
 		
 		String className = servletPath.substring(1, servletPath.lastIndexOf('/'));
-		String packageName = "jp.co.comnic.javalesson.webapp.lastsubject.entity.";
+		String packageName = "jp.co.comnic.javalesson.webapp.lastsubject.model.";
 		String firstCharacter = String.valueOf(className.charAt(0));
 		firstCharacter = firstCharacter.toUpperCase();
 		

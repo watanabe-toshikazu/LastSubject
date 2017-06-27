@@ -20,8 +20,8 @@
 		    timeFormat: 'H:mm',
 		    allDayText: "終日",
 			buttonText: {
-				prev: "前月", // <
-				next: "翌月", // >
+				prev: "＜", // <
+				next: "＞", // >
 				prevYear: "前年", // <<
 				nextYear: "翌年", // >>
 				today: "今日",

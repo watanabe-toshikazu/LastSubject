@@ -35,9 +35,11 @@ public class ControllerUtils {
 		
 		String className = servletPath.substring(1, servletPath.lastIndexOf('/'));
 		String packageName = "jp.co.comnic.javalesson.webapp.lastsubject.model.";
+		//classNameの0番目の文字列表現を返す。
 		String firstCharacter = String.valueOf(className.charAt(0));
+		//firstCharacterを大文字に変換する。
 		firstCharacter = firstCharacter.toUpperCase();
-		
+		//classNameの任意の文字（この場合先頭）をfirstCharacterに置き換えてpackageNameに足す。
 		return packageName + className.replaceFirst(".", firstCharacter);
 	}
 

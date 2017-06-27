@@ -22,10 +22,10 @@
            <p class="title"><input type="text" name="title" value="${title}" required></p>
            
            <p><label for="hire_date">開始日時 </label></p>
-           <p class="start"><input type="date" name="starttime" value="${strattime}" required></p>
+           <p class="start"><input type="datetime-local" name="starttime" value="${strattime}" required></p>
           
            <p><label for="hire_date">終了日時 </label></p>
-           <p class="start"><input type="date" name="endtime" value="${endtime}" required></p>
+           <p class="start"><input type="datetime-local" name="endtime" value="${endtime}" required></p>
            
            <p><label for="text">メモ </label></p>
            <p class="title"><input type="text" name="memo" value="${memo}" ></p>

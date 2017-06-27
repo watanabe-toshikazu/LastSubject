@@ -38,7 +38,7 @@ public class LoginAction implements Action {
 				response.sendRedirect("/" + request.getServletContext().getServletContextName() + "/");
 				
 			} else {
-				request.setAttribute("error", "[ERROR] Invalid e-mail or password.");
+				request.setAttribute("error", "[エラー！] メールアドレスかパスワードが違うよ(-。-)y-゜゜゜");
 				forwardPath = "login";
 			}
 		} catch (DaoException e) {

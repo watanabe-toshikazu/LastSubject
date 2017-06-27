@@ -25,6 +25,8 @@
 		 
 		 <p class="submit"><input type="submit" name="確認" value="ログイン" required></p>
 		</form>
+		
+		<p class="error">${error}</p>
      </div>
     </body>
 </html>

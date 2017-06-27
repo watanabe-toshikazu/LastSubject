@@ -6,4 +6,4 @@
 </div>
 <div class="login-user">Hello！</div> 
 <div class="username">${loginUsername} さん</div>
-<p class="login-user"><a href="${ctxPath}logout.do"> Logout</a></p>
+<p class="logout_btn"><a href="${ctxPath}logout.do"> Logout</a></p>

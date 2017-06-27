@@ -13,8 +13,7 @@
 		<script type="text/javascript" src="js/full.js"></script>
 </head>
      <body>
-     	<p class="square_btn"><a href="new">New</a></p>
-     	
+     	<br><p class="square_btn"><a href="new">New</a></p>
 		 <div id='calendar'></div>
      </body>
 </html>

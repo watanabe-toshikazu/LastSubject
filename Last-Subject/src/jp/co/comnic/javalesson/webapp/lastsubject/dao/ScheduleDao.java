@@ -25,8 +25,10 @@ public class ScheduleDao extends BaseDao {
 	}
 	
 	public Collection<Schedule> findByEmail (String email) {
-	    Query query = em.createQuery("SELECT * FROM Schedule WHERE Schedule.email = :email");
+	    Query query = em.createQuery("SELECT * FROM Schedule schedule WHERE Schedule.email = :email");
+	    query.setParameter("email" ,email);
 	    return query.getResultList();
 	}
+
 	
 }

@@ -13,6 +13,11 @@
     <param-name>/schedule/insert.do</param-name>
     <param-value>jp.co.comnic.javalesson.webapp.lastsubject.controller.InsertAction</param-value>
   </context-param>
+  <context-param>
+    <param-name>/schedule/remove.do</param-name>
+    <param-value>jp.co.comnic.javalesson.webapp.lastsubject.controller.RemoveAction</param-value>
+  </context-param>
+  
   
   <servlet>
     <servlet-name>Login</servlet-name>
@@ -30,6 +35,7 @@
     <servlet-name>ScheduleNew</servlet-name>
     <url-pattern>/new</url-pattern>
   </servlet-mapping>
+  
  
    <resource-ref>
   	<res-ref-name>ds/last_subject</res-ref-name>

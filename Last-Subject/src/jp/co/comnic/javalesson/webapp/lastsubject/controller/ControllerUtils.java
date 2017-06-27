@@ -13,7 +13,7 @@ import org.apache.commons.beanutils.converters.DateConverter;
 
 import jp.co.comnic.javalesson.webapp.lastsubject.dao.DaoException;
 import jp.co.comnic.javalesson.webapp.lastsubject.dao.ScheduleDao;
-import jp.co.comnic.javalesson.webapp.lastsubject.entity.Schedule;
+import jp.co.comnic.javalesson.webapp.lastsubject.model.Schedule;
 
 
 

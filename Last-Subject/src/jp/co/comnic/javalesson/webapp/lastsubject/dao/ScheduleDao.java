@@ -5,7 +5,7 @@ import java.util.List;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import jp.co.comnic.javalesson.webapp.lastsubject.entity.Schedule;
+import jp.co.comnic.javalesson.webapp.lastsubject.model.Schedule;
 
 
 public class ScheduleDao extends BaseDao {

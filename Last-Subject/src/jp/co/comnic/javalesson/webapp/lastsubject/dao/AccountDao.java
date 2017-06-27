@@ -6,7 +6,7 @@ import javax.persistence.NoResultException;
 import javax.persistence.criteria.CriteriaQuery;
 import javax.persistence.criteria.Root;
 
-import jp.co.comnic.javalesson.webapp.lastsubject.entity.Account;
+import jp.co.comnic.javalesson.webapp.lastsubject.model.Account;
 
 
 public class AccountDao extends BaseDao{

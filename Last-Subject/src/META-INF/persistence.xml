@@ -3,8 +3,7 @@
 	<persistence-unit name="Last-Subject" transaction-type="RESOURCE_LOCAL">
 	<provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
 	<non-jta-data-source>java:comp/env/ds/last_subject</non-jta-data-source>
-	<class>jp.co.comnic.javalesson.webapp.lastsubject.entity.Account</class>
-	<class>jp.co.comnic.javalesson.webapp.lastsubject.entity.Schedule</class>
-	<class>jp.co.comnic.javalesson.webapp.lastsubject.entity.SchedulePK</class>
+	<class>jp.co.comnic.javalesson.webapp.lastsubject.model.Account</class>
+	<class>jp.co.comnic.javalesson.webapp.lastsubject.model.Schedule</class>
 	</persistence-unit>
 </persistence>

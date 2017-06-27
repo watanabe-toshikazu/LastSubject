@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import jp.co.comnic.javalesson.webapp.lastsubject.dao.DaoException;
-import jp.co.comnic.javalesson.webapp.lastsubject.entity.Account;
+import jp.co.comnic.javalesson.webapp.lastsubject.model.Account;
 import jp.co.comnic.javalesson.webapp.lastsubject.dao.AccountDao;
 
 public class LoginAction implements Action {

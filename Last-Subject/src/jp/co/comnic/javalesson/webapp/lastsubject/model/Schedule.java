@@ -1,4 +1,4 @@
-package jp.co.comnic.javalesson.webapp.lastsubject.entity;
+package jp.co.comnic.javalesson.webapp.lastsubject.model;
 
 import java.io.Serializable;
 import javax.persistence.*;
@@ -14,8 +14,8 @@ import java.util.Date;
 public class Schedule implements Serializable {
 	private static final long serialVersionUID = 1L;
 
-	@EmbeddedId
-	private SchedulePK id;
+	@Id
+	private int id;
 
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date endtime;
@@ -35,11 +35,11 @@ public class Schedule implements Serializable {
 	public Schedule() {
 	}
 
-	public SchedulePK getId() {
+	public int getId() {
 		return this.id;
 	}
 
-	public void setId(SchedulePK id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 

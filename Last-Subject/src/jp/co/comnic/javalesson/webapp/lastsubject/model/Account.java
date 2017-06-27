@@ -1,4 +1,4 @@
-package jp.co.comnic.javalesson.webapp.lastsubject.entity;
+package jp.co.comnic.javalesson.webapp.lastsubject.model;
 
 import java.io.Serializable;
 import javax.persistence.*;

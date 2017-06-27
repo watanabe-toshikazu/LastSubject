@@ -22,7 +22,7 @@
 	</page_setting>
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
-	<x>8</x>
+	<x>0</x>
 	<y>0</y>
 	<default_color>
 		<r>128</r>
@@ -149,7 +149,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2017-06-23 09:54:53</creation_date>
-			<updated_date>2017-06-27 11:59:43</updated_date>
+			<updated_date>2017-06-27 15:56:56</updated_date>
 			<model_property>
 				<name>プロジェクト名</name>
 				<value></value>
@@ -497,20 +497,19 @@
 			<option></option>
 			<columns>
 				<normal_column>
+					<word_id>2</word_id>
 					<id>3</id>
-					<referenced_column>0</referenced_column>
-					<relation>0</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
 					<physical_name></physical_name>
-					<type>varchar(n)</type>
+					<type>integer</type>
 					<constraint></constraint>
 					<default_value></default_value>
 					<auto_increment>false</auto_increment>
-					<foreign_key>true</foreign_key>
-					<not_null>false</not_null>
-					<primary_key>false</primary_key>
+					<foreign_key>false</foreign_key>
+					<not_null>true</not_null>
+					<primary_key>true</primary_key>
 					<unique_key>false</unique_key>
 					<character_set></character_set>
 					<collation></collation>
@@ -531,19 +530,20 @@
 					</sequence>
 				</normal_column>
 				<normal_column>
-					<word_id>2</word_id>
 					<id>4</id>
+					<referenced_column>0</referenced_column>
+					<relation>0</relation>
 					<description></description>
 					<unique_key_name></unique_key_name>
 					<logical_name></logical_name>
 					<physical_name></physical_name>
-					<type>integer</type>
+					<type>varchar(n)</type>
 					<constraint></constraint>
 					<default_value></default_value>
 					<auto_increment>false</auto_increment>
-					<foreign_key>false</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>true</primary_key>
+					<foreign_key>true</foreign_key>
+					<not_null>false</not_null>
+					<primary_key>false</primary_key>
 					<unique_key>false</unique_key>
 					<character_set></character_set>
 					<collation></collation>
@@ -818,11 +818,11 @@
 						<data>
 							<column_data>
 								<column_id>3</column_id>
-								<value>a@comnic.co.jp</value>
+								<value>1</value>
 							</column_data>
 							<column_data>
 								<column_id>4</column_id>
-								<value>1</value>
+								<value>a@comnic.co.jp</value>
 							</column_data>
 							<column_data>
 								<column_id>5</column_id>
@@ -847,21 +847,6 @@
 						<data_def_list>
 							<data_def>
 								<column_id>3</column_id>
-								<type>foreign.key</type>
-								<repeat_num>1</repeat_num>
-								<template>メールアドレス_%</template>
-								<from>1</from>
-								<to>100</to>
-								<increment>1</increment>
-								<select>メールアドレス_1</select>
-								<select>メールアドレス_2</select>
-								<select>メールアドレス_3</select>
-								<select>メールアドレス_4</select>
-								<modified_values>
-								</modified_values>
-							</data_def>
-							<data_def>
-								<column_id>4</column_id>
 								<type>format</type>
 								<repeat_num>1</repeat_num>
 								<template>%</template>
@@ -872,6 +857,21 @@
 								<select>2</select>
 								<select>3</select>
 								<select>4</select>
+								<modified_values>
+								</modified_values>
+							</data_def>
+							<data_def>
+								<column_id>4</column_id>
+								<type>foreign.key</type>
+								<repeat_num>1</repeat_num>
+								<template>メールアドレス_%</template>
+								<from>1</from>
+								<to>100</to>
+								<increment>1</increment>
+								<select>メールアドレス_1</select>
+								<select>メールアドレス_2</select>
+								<select>メールアドレス_3</select>
+								<select>メールアドレス_4</select>
 								<modified_values>
 								</modified_values>
 							</data_def>

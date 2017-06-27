@@ -14,8 +14,7 @@
      	 <div id="new" >
      	 <p class='form-title'>新規作成</p>
      	 
-         <form action="schedulePK
-         /insert.do" method="get">
+         <form action="schedule/insert.do" method="get">
             <p><label for="id">ID </label></p>
            <p class="id"><input type="number" name="id" value="${id}"  required autofocus></p>
            

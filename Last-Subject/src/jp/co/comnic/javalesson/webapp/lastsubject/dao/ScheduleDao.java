@@ -21,4 +21,6 @@ public class ScheduleDao extends BaseDao {
 	public Schedule findById(Integer id) {
 		return super.findById(Schedule.class, id);
 	}
+	
+	
 }

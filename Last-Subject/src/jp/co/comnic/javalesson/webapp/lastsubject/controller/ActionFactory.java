@@ -23,7 +23,7 @@ public class ActionFactory implements ServletContextListener {
 		try {
 			action = (Action)Class.forName(actionClassName).newInstance();
 		} catch (Exception e) {
-			throw new ServletException();
+			throw new ServletException(e);
 		}
 		
 		return action;

@@ -2,13 +2,13 @@
 <diagram>
 	<dbsetting>
 		<dbsystem>MySQL</dbsystem>
-		<server>192.168.30.129</server>
+		<server>13.59.70.152</server>
 		<port>3306</port>
 		<database>last_subject</database>
 		<user>root</user>
 		<password>mariadb</password>
 		<use_default_driver>true</use_default_driver>
-		<url>jdbc:mysql://192.168.30.129:3306/last_subject</url>
+		<url>jdbc:mysql://13.59.70.152:3306/last_subject</url>
 		<driver_class_name>com.mysql.jdbc.Driver</driver_class_name>
 	</dbsetting>
 	<page_setting>
@@ -22,7 +22,7 @@
 	</page_setting>
 	<category_index>0</category_index>
 	<zoom>1.0</zoom>
-	<x>0</x>
+	<x>8</x>
 	<y>0</y>
 	<default_color>
 		<r>128</r>
@@ -149,7 +149,7 @@
 			</connections>
 			<display>false</display>
 			<creation_date>2017-06-23 09:54:53</creation_date>
-			<updated_date>2017-06-26 13:41:24</updated_date>
+			<updated_date>2017-06-27 11:59:43</updated_date>
 			<model_property>
 				<name>プロジェクト名</name>
 				<value></value>
@@ -480,7 +480,7 @@
 							<b>0</b>
 						</color>
 					<child_cardinality>0..n</child_cardinality>
-					<parent_cardinality>1</parent_cardinality>
+					<parent_cardinality>0..1</parent_cardinality>
 					<reference_for_pk>true</reference_for_pk>
 					<name></name>
 					<on_delete_action>RESTRICT</on_delete_action>
@@ -509,8 +509,8 @@
 					<default_value></default_value>
 					<auto_increment>false</auto_increment>
 					<foreign_key>true</foreign_key>
-					<not_null>true</not_null>
-					<primary_key>true</primary_key>
+					<not_null>false</not_null>
+					<primary_key>false</primary_key>
 					<unique_key>false</unique_key>
 					<character_set></character_set>
 					<collation></collation>

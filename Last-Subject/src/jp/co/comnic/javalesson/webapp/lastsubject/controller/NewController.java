@@ -30,18 +30,15 @@ public class NewController extends HttpServlet {
 		
 		 String title = request.getParameter("title");
 		 
-		 String strat = request.getParameter("start");
+//		 String strat = request.getParameter("start");
+//		 String end = request.getParameter("end");
 		 
-		 String end = request.getParameter("end");
+		 request.setAttribute("title", title); 
 		 
-		 request.getRequestDispatcher(title)
+		 request.getRequestDispatcher("full.js")
 		 .forward(request, response);
 		
-		 request.getRequestDispatcher(strat)
-		 .forward(request, response);
 		 
-		 request.getRequestDispatcher(end)
-		 .forward(request, response);
 	}
 
 }

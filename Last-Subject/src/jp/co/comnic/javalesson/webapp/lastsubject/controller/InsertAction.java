@@ -21,7 +21,7 @@ public class InsertAction implements Action {
 		
 		String servletPath = request.getServletPath();
 		
-		String redirectPath = "./"; // 正常処理のリダイレクト先（一覧画面）
+		String redirectPath = "../index.jsp"; // 正常処理のリダイレクト先（一覧画面）
 		String forwardPath = "new"; // 例外発生時のフォワード先（元の登録画面）
 		
 		try {

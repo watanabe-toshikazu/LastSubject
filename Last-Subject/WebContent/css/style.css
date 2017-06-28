@@ -10,10 +10,14 @@ body {
 #calendar {
     max-width: 900px;
     margin: 0 auto;
-    color: #3db2e4;
+    color: #00ff00;
 }
 .fc-sun {
     color: #FF0000;
+}
+
+.fc-sat {
+	color: #0080ff;
 }
 
 .demo {

@@ -18,7 +18,7 @@
      	<p class='form-title'>Login</p>
      	
        <form action="login.do" method="post">
-     	<p>Email</p>
+     	<p>ID</p>
 		 <p class="email"><input type="email" name="email"></p>
 		<p>Password</p>
 		 <p class="password"><input type="password" name="password"></p>

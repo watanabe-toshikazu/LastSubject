@@ -27,9 +27,10 @@ $(function() {
  			right: "month agendaWeek agendaDay list"
  		 },
  			lang: "ja",
- 			firstDay: 1,
+ 			firstDay: 7,
  			titleFormat: 'YYYY年 MMMM',
  			defaultView: 'month',
+ 			
  	 // スロットの時間の書式
  			axisFormat: 'H:mm',
  	 // 時間の書式
@@ -49,7 +50,7 @@ $(function() {
  			 list: "予定"
  			},
  			 monthNames: [
- 			    　"1月",
+ 			   "1月",
  			   "2月",
  			   "3月",
  			   "4月",
@@ -58,9 +59,9 @@ $(function() {
  			   "7月",
  			   "8月",
  			   "9月",
- 			   "10月",
- 			   "11月",
- 			   "12月"
+ 			  "10月",
+ 			  "11月",
+ 			  "12月"
  			  ],
  			  monthNamesShort: [
  			    "1月",
@@ -88,13 +89,23 @@ $(function() {
 			    	 },
 			      </c:forEach>
  			    ],
+ 			    selectable: true,
+ 		        
+ 		        selectHelper: true,
+ 		       
+ 		        unselectAuto: true,
+ 		        
+ 		        unselectCancel: '',
  	});
+ 	
+ 	
 });
+
 </script>
 
 </head>
      <body>
      	<br><p class="square_btn"><a href="new">New</a></p>
-		 <div id='calendar'></div>
+		<div id='calendar'></div>
      </body>
 </html>

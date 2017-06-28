@@ -8,6 +8,6 @@ INSERT INTO ACCOUNT (email, password, username) VALUES ('c@comnic.co.jp', 'c', '
 
 
 -- スケジュール
-INSERT INTO SCHEDULE (email, id, starttime, endtime, memo, title) VALUES ('a@comnic.co.jp', '1', '2017-6-26-12:00', '2017-6-26-12:10', '', '会議');
+INSERT INTO SCHEDULE (email, starttime, endtime, memo, title) VALUES ('a@comnic.co.jp', '2017-6-26-12:00', '2017-6-26-12:10', '', '会議');
 
 
